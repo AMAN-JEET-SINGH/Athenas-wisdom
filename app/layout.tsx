@@ -19,6 +19,7 @@ export const metadata: Metadata = {
     default: "AthenaLab — Thoughtfully crafted apps",
     template: "%s · AthenaLab",
   },
+  icons: { icon: "/logo.png", apple: "/logo.png" },
   description:
     "AthenaLab builds calm, focused mobile apps that help you build better habits and live more intentionally.",
 };

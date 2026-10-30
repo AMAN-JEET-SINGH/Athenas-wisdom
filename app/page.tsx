@@ -10,7 +10,7 @@ const apps = [
     description:
       "Track streaks, set reminders, stake credits on your commitments and get personal coaching from an AI habit coach — all in one beautifully focused Android app.",
     tags: ["Android", "Habits", "AI Coach"],
-    icon: "/ic_launcher-playstore.png",
+    icon: "/ic_launcher-playstore-removebg-preview.png",
     iconBg: "from-[#1a0a00] to-[#2d0f00]",
     glowColor: "rgba(255,107,43,0.25)",
     borderGlow: "rgba(255,107,43,0.3)",
@@ -151,15 +151,13 @@ export default function Home() {
 
               <div className="relative">
                 {/* Icon */}
-                <div className={`${app.ringClass} flex h-[76px] w-[76px] items-center justify-center overflow-hidden rounded-[22px] bg-gradient-to-br ${app.iconBg}`}>
-                  <Image
-                    src={app.icon}
-                    alt={`${app.name} icon`}
-                    width={76}
-                    height={76}
-                    className="h-full w-full object-cover"
-                  />
-                </div>
+                <Image
+                  src={app.icon}
+                  alt={`${app.name} icon`}
+                  width={76}
+                  height={76}
+                  className="h-[76px] w-[76px] drop-shadow-[0_6px_16px_rgba(255,107,43,0.35)]"
+                />
 
                 <div className="mt-5 flex items-center gap-3">
                   <h3 className="text-2xl font-semibold tracking-tight">{app.name}</h3>
