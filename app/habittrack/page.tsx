@@ -39,13 +39,13 @@ export default function HabitTrackPage() {
 
         {/* App icon — floating */}
         <div className="float mx-auto w-fit">
-          <div className="mx-auto h-[108px] w-[108px] drop-shadow-[0_8px_24px_rgba(255,107,43,0.22)]">
+          <div className="icon-ring-warm mx-auto flex h-[108px] w-[108px] items-center justify-center overflow-hidden rounded-[28px] bg-gradient-to-br from-[#1a0800] to-[#2d1200]">
             <Image
-              src="/ic_launcher-playstore-removebg-preview.png"
+              src="/ic_launcher-playstore.png"
               alt="HabitTrack app icon"
               width={108}
               height={108}
-              className="h-full w-full object-contain"
+              className="h-full w-full object-cover"
               priority
             />
           </div>

@@ -21,9 +21,6 @@ export const metadata: Metadata = {
   },
   description:
     "AthenaLab builds calm, focused mobile apps that help you build better habits and live more intentionally.",
-  icons: {
-    icon: "/logo.png",
-  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
